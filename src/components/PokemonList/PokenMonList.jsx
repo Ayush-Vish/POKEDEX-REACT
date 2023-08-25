@@ -30,25 +30,23 @@ function PokeMonList( )  {
                 }
 
         })
-        console.log(pokemonList )
         setPokemonList(res) 
-        console.log(pokemonList )
-        
-
         setIsLoading(false)
     }
     useEffect(  ()=>{
         downloadPokemons()
     } ,[])
-     console.log(pokemonList)
+    
     return (
         <div className="pokemon-list-wrapper">
-
-                <div>Pke List ... </div>
-                <div>{ (isLoading ) ?  "Loading Data "  : 
+                <div className="pokemon-wrapper" >{ (isLoading ) ?  "Loading Data "  : 
                     pokemonList.map((pokemon) => <Pokemon  name={pokemon.name} image={pokemon.image} key={pokemon.id} /> )
                 
                 } </div>
+                <div className="button-wrapper" >
+                    <button>Prev</button>
+                    <button>Next</button>
+                </div>
             
         </div>
     )
