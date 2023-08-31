@@ -5,12 +5,9 @@ import "./PokemonDetails.css"
 import usePokemonList from "../../hooks/usePokemonList"
 import usePokemonDetails from "../../hooks/usePokemonDetails"
 
-function PokemonDetails () {
-    const {id } = useParams() 
-    const [pokemon]  = usePokemonDetails(id)
-    
-
-
+function PokemonDetails ({pokemonName }) {
+    const {id  } = useParams() 
+    const [pokemon]  = usePokemonDetails(id ,pokemonName)
     return (
         <div className="pokemon-details-wrapper" >   
             <div className="pokemon-name"  >Name : <span> {pokemon.name}</span> </div>
