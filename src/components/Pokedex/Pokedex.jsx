@@ -12,7 +12,7 @@ function Pokedex () {
         <div className="pokedex-wrapper" >
              
             < Search updateSearchTerm = {setSearchTerm} />
-            {searchTerm}
+            
            { (!searchTerm ) ? <PokeMonList/>  :  <PokemonDetails key={searchTerm} pokemonName={searchTerm} />}
 
         </div>

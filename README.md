@@ -1,8 +1,17 @@
-# React + Vite
+# 🚀Pokedex 
+### 1. Pokedex is a api based pokemon searching app made in react.js.
+### 2. Used as library to fetch api.
+### 3. Used pokeapi (https://pokeapi.co/) api to get data. 
+###  Setting up the project  
+1. ### Cloning the project 
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+ ``` git clone https://github.com/Ayush-Vish/POKEDEX-REACT.git pokedex ```
 
-Currently, two official plugins are available:
+2. ### Changing directory  
+ ``` cd pokedex  ```
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+3. ### Installing all dependencies 
+``` npm  i ```
+
+4. Running the app 
+``` npm run dev   ```
