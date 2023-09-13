@@ -2,6 +2,7 @@
 ###  1. Pokedex is a api based pokemon searching app made in react.js.
 ###  2. Used as library to fetch api.
 ### 3. Used pokeapi (https://pokeapi.co/) api to get data. 
+### 4. Added debouncing functionality.
 ###  Setting up the project  
 1. ### Cloning the project 
 
