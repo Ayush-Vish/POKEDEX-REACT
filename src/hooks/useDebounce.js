@@ -6,7 +6,5 @@ function useDebounce (  cb , delay =2000  ) {
             cb(...args  )
         }, delay)
     }
-
 }
-
 export default useDebounce
