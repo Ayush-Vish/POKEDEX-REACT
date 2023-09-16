@@ -9,7 +9,9 @@
  ``` git clone https://github.com/Ayush-Vish/POKEDEX-REACT.git pokedex ```
 
 2. ### Changing directory  
- ``` cd pokedex  ```
+ ```bash
+ cd pokedex
+  ```
 
 3. ### Installing all dependencies 
 ``` npm  i ```
