@@ -1,11 +1,10 @@
-import axios from "axios"
-import { useEffect, useState } from "react"
+
+
 import { useParams } from "react-router-dom"
 import "./PokemonDetails.css"
-import usePokemonList from "../../hooks/usePokemonList"
 import usePokemonDetails from "../../hooks/usePokemonDetails"
 
-function PokemonDetails ({pokemonName }) {
+function PokemonDetails ({ pokemonName }) {
     const {id  } = useParams() 
     const [pokemon]  = usePokemonDetails(id ,pokemonName)
     return (
